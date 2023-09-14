@@ -38,48 +38,48 @@ main()
 	// 	printf("you are apr0ved");
 	// }
 	
-	int currentyear;
-	int bornyear; 
-	char name[25]; 
+	// int currentyear;
+	// int bornyear; 
+	// char name[25]; 
 
-	printf("Ensere o teu nome:\t");
-	scanf("%s",&name);
-	printf("\nEnsere o teu ano de nascimento:\t");
-	scanf("%d",&bornyear);
-	printf("\nEnsere o ano atual:\t");
-	scanf("%d",&currentyear);
+	// printf("Ensere o teu nome:\t");
+	// scanf("%s",&name);
+	// printf("\nEnsere o teu ano de nascimento:\t");
+	// scanf("%d",&bornyear);
+	// printf("\nEnsere o ano atual:\t");
+	// scanf("%d",&currentyear);
 
-	int age = (currentyear - bornyear); 
-	printf("Hello %s\n", name);
-	printf("You were born in %d \n", bornyear);
-	printf("we are in %d \n", currentyear);
-	if (age < 20)
-	{
-		printf("and actualy you are %d years old\n", age);
-		printf("and you need to be above 20 years old to get a independece");
-	}else
-	{
-		printf("and actualy you are %d years old\n", age);
-		printf("you are aproved");
-	}
-	// char letter;
-	// printf("Ensere uma letra:\t");
-	// scanf("%s",&letter);
-	// switch (letter)
+	// int age = (currentyear - bornyear); 
+	// printf("Hello %s\n", name);
+	// printf("You were born in %d \n", bornyear);
+	// printf("we are in %d \n", currentyear);
+	// if (age < 20)
 	// {
-	// case 'A':
-	// printf("Tudo esta correndo  bem em A!\n");
-	// 	break;
-	// case 'B':
-	// printf("Tudo esta correndo  bem em B!\n");
-	// 	break;
-	// case 'C':
-	// printf("Tudo esta correndo  bem em C!\n");
-	// 	break;
-	
-	// default:
-	// 	break;
+	// 	printf("and actualy you are %d years old\n", age);
+	// 	printf("and you need to be above 20 years old to get a independece");
+	// }else
+	// {
+	// 	printf("and actualy you are %d years old\n", age);
+	// 	printf("you are aproved");
 	// }
+	char letter;
+	printf("Ensere uma letra:\t");
+	scanf("%s",&letter);
+	switch (letter)
+	{
+	case 'A':
+	printf("Tudo esta correndo  bem em A!\n");
+		break;
+	case 'B':
+	printf("Tudo esta correndo  bem em B!\n");
+		break;
+	case 'C':
+	printf("Tudo esta correndo  bem em C!\n");
+		break;
+	
+	default:
+		break;
+	}
 	// char unit;
 	// float temp;
 	// unit = toupper(unit);
