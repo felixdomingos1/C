@@ -24,44 +24,44 @@ main()
 
 	// // // printf("f0ating in %f \n", age);
 
-	printf("Hello %s\n", name);
-	printf("You were born in %d \n", bornyear);
-	printf("we are in %d \n", currentyear);
-	// bool age1 = true;
-	if (age < 20)
-	{
-		printf("and actualy you are %d years old\n", age);
-		printf("and you need t0 be ab0ve 20 years old");
-	}else
-	{
-		printf("and actualy you are %d years old\n", age);
-		printf("you are apr0ved");
-	}
-	
-	// int currentyear;
-	// int bornyear; 
-	// char name[25]; 
-
-	// printf("Ensere o teu nome:\t");
-	// scanf("%s",&name);
-	// printf("\nEnsere o teu ano de nascimento:\t");
-	// scanf("%d",&bornyear);
-	// printf("\nEnsere o ano atual:\t");
-	// scanf("%d",&currentyear);
-
-	// int age = (currentyear - bornyear); 
 	// printf("Hello %s\n", name);
 	// printf("You were born in %d \n", bornyear);
 	// printf("we are in %d \n", currentyear);
+	// // bool age1 = true;
 	// if (age < 20)
 	// {
 	// 	printf("and actualy you are %d years old\n", age);
-	// 	printf("and you need to be above 20 years old to get a independece");
+	// 	printf("and you need t0 be ab0ve 20 years old");
 	// }else
 	// {
 	// 	printf("and actualy you are %d years old\n", age);
-	// 	printf("you are aproved");
+	// 	printf("you are apr0ved");
 	// }
+	
+	int currentyear;
+	int bornyear; 
+	char name[25]; 
+
+	printf("Ensere o teu nome:\t");
+	scanf("%s",&name);
+	printf("\nEnsere o teu ano de nascimento:\t");
+	scanf("%d",&bornyear);
+	printf("\nEnsere o ano atual:\t");
+	scanf("%d",&currentyear);
+
+	int age = (currentyear - bornyear); 
+	printf("Hello %s\n", name);
+	printf("You were born in %d \n", bornyear);
+	printf("we are in %d \n", currentyear);
+	if (age < 20)
+	{
+		printf("and actualy you are %d years old\n", age);
+		printf("and you need to be above 20 years old to get a independece");
+	}else
+	{
+		printf("and actualy you are %d years old\n", age);
+		printf("you are aproved");
+	}
 	// char letter;
 	// printf("Ensere uma letra:\t");
 	// scanf("%s",&letter);
