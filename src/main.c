@@ -62,76 +62,76 @@ main()
 	// 	printf("and actualy you are %d years old\n", age);
 	// 	printf("you are aproved");
 	// }
-	char letter;
-	printf("Ensere uma letra:\t");
-	scanf("%s",&letter);
-	switch (letter)
-	{
-	case 'A':
-	printf("Tudo esta correndo  bem em A!\n");
-		break;
-	case 'B':
-	printf("Tudo esta correndo  bem em B!\n");
-		break;
-	case 'C':
-	printf("Tudo esta correndo  bem em C!\n");
-		break;
-	
-	default:
-		break;
-	}
-	// char unit;
-	// float temp;
-	// unit = toupper(unit);
-	// printf("qua e a temperatura de hj!\n");
-	// scanf("%c", &unit);
-	// printf("A temperatura esta em %cc!\n", unit);
-
-
-
-	// char operador;
-	// double numb1;
-	// double numb2;
-	// double result;
-
-
-	// printf("Escolha um operador! (+ - * /) : \t");
-	// scanf("%c", &operador);
-	
-	// printf("digite o primeiro valor :\t");
-	// scanf("%lf", &numb1);
-	// printf("digite o segundo valor :\t");
-	// scanf("%lf", &numb2);
-
-	// switch (operador)
+	// char letter;
+	// printf("Ensere uma letra:\t");
+	// scanf("%s",&letter);
+	// switch (letter)
 	// {
-	// case '+' :
-	// 	result = numb1 + numb2;
-	// 	printf("A soma e = %.2lf", result);
+	// case 'A':
+	// printf("Tudo esta correndo  bem em A!\n");
 	// 	break;
-	
-	// case '-' :
-	// 	result = numb1 - numb2;
-	// 	printf("A subtracao e = %.2lf", result);
+	// case 'B':
+	// printf("Tudo esta correndo  bem em B!\n");
 	// 	break;
-	
-	// case '*' :
-	// 	result = numb1 * numb2;
-	// 	printf("A multiplicacao e = %.2lf", result);
-	// 	break;
-	
-	// case '/' :
-	// 	result = numb1 / numb2;
-	// 	printf("A divisao e = %.2lf", result);
+	// case 'C':
+	// printf("Tudo esta correndo  bem em C!\n");
 	// 	break;
 	
 	// default:
 	// 	break;
 	// }
-	// // printf("qua e a temperatura de hj!\n");
-	// // scanf("%c", &);
-	// // printf("A temperatura esta em %cc!\n", unit);
+	char unit;
+	float temp;
+	unit = toupper(unit);
+	printf("qua e a temperatura de hj!\n");
+	scanf("%c", &unit);
+	printf("A temperatura esta em %cc!\n", unit);
 
-	// return 0;
+
+
+	char operador;
+	double numb1;
+	double numb2;
+	double result;
+
+
+	printf("Escolha um operador! (+ - * /) : \t");
+	scanf("%c", &operador);
+	
+	printf("digite o primeiro valor :\t");
+	scanf("%lf", &numb1);
+	printf("digite o segundo valor :\t");
+	scanf("%lf", &numb2);
+
+	switch (operador)
+	{
+	case '+' :
+		result = numb1 + numb2;
+		printf("A soma e = %.2lf", result);
+		break;
+	
+	case '-' :
+		result = numb1 - numb2;
+		printf("A subtracao e = %.2lf", result);
+		break;
+	
+	case '*' :
+		result = numb1 * numb2;
+		printf("A multiplicacao e = %.2lf", result);
+		break;
+	
+	case '/' :
+		result = numb1 / numb2;
+		printf("A divisao e = %.2lf", result);
+		break;
+	
+	default:
+		break;
+	}
+	// printf("qua e a temperatura de hj!\n");
+	// scanf("%c", &);
+	// printf("A temperatura esta em %cc!\n", unit);
+
+	return 0;
 
 }
