@@ -15,28 +15,28 @@ main()
 	// x = 20; 	//initiaizati0n
 	// int y = 30;	//decarti0n and initiazati0n
 
-	int currentyear = 2023; 		//intir0
-	int bornyear = 2000; 		//intir0
-	int age = (currentyear - bornyear); 	//f0ating p0int number
-	// // float age = 2.12; 	//f0ating p0int number
-	// char grade = 'C'; 	// singe character
-	char name[] = "Felix"; 	// array 0f character
+	// int currentyear = 2023; 		//intir0
+	// int bornyear = 2000; 		//intir0
+	// int age = (currentyear - bornyear); 	//f0ating p0int number
+	// // // float age = 2.12; 	//f0ating p0int number
+	// // char grade = 'C'; 	// singe character
+	// char name[] = "Felix"; 	// array 0f character
 
 	// // // printf("f0ating in %f \n", age);
 
-	// printf("Hello %s\n", name);
-	// printf("You were born in %d \n", bornyear);
-	// printf("we are in %d \n", currentyear);
-	// // bool age1 = true;
-	// if (age < 20)
-	// {
-	// 	printf("and actualy you are %d years old\n", age);
-	// 	printf("and you need t0 be ab0ve 20 years old");
-	// }else
-	// {
-	// 	printf("and actualy you are %d years old\n", age);
-	// 	printf("you are apr0ved");
-	// }
+	printf("Hello %s\n", name);
+	printf("You were born in %d \n", bornyear);
+	printf("we are in %d \n", currentyear);
+	// bool age1 = true;
+	if (age < 20)
+	{
+		printf("and actualy you are %d years old\n", age);
+		printf("and you need t0 be ab0ve 20 years old");
+	}else
+	{
+		printf("and actualy you are %d years old\n", age);
+		printf("you are apr0ved");
+	}
 	
 	// int currentyear;
 	// int bornyear; 
