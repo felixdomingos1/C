@@ -11,16 +11,16 @@ main()
 	// printf("1\t2\t3\n4\t5\t6\n7\t8\t0");
 	// printf("Queres meter 0que j0vem\n");
 	// Vars
-	int x; 		//decarati0n
-	x = 20; 	//initiaizati0n
-	int y = 30;	//decarti0n and initiazati0n
+	// int x; 		//decarati0n
+	// x = 20; 	//initiaizati0n
+	// int y = 30;	//decarti0n and initiazati0n
 
-	// int currentyear = 2023; 		//intir0
-	// int bornyear = 2000; 		//intir0
-	// int age = (currentyear - bornyear); 	//f0ating p0int number
-	// // // float age = 2.12; 	//f0ating p0int number
-	// // char grade = 'C'; 	// singe character
-	// char name[] = "Felix"; 	// array 0f character
+	int currentyear = 2023; 		//intir0
+	int bornyear = 2000; 		//intir0
+	int age = (currentyear - bornyear); 	//f0ating p0int number
+	// // float age = 2.12; 	//f0ating p0int number
+	// char grade = 'C'; 	// singe character
+	char name[] = "Felix"; 	// array 0f character
 
 	// // // printf("f0ating in %f \n", age);
 
